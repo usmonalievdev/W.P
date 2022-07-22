@@ -1,0 +1,126 @@
+@import 'fonts.css';
+:root {
+    --m-l: ' montserrat-light';
+    --r-b: 'raleway-bold ';
+    --r-e: 'raleway-extrabold ';
+    --r-m: 'raleway-medium';
+    --r-r: 'raleway-regular ';
+    --r-s: ' raleway-semibold';
+}
+
+
+/* --------header-------- */
+
+.navbar-light .navbar-nav .nav-link {
+    color: #383838;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+
+/* ----------SECTION---------- */
+
+.skills {
+    background: #f6f6f6;
+    height: 633px;
+}
+
+.skills_text {
+    padding: 170px 50px 158px 130px;
+}
+
+.skills .skills_row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.skills .col_none {
+    padding-left: 0;
+    margin-top: 0;
+    padding-right: 0;
+    margin-bottom: 0;
+}
+
+.skills img {
+    width: 100%;
+}
+
+.skills__titkle {
+    font-size: 38px;
+    font-family: var(--r-b);
+    color: #171717;
+    margin-bottom: 45px;
+}
+
+.p1 {
+    font-size: 16px;
+    font-family: var(--r-m);
+    color: #787878;
+    margin-bottom: 35px;
+}
+
+.p2 {
+    font-size: 16px;
+    font-family: var(--r-m);
+    color: #787878;
+}
+
+.skills__span {
+    font-size: 16px;
+    font-family: var(--r-b);
+    color: #171717;
+}
+
+.lil {
+    margin-top: 60px;
+}
+
+
+/* --------main-------- */
+
+.main {
+    background: #007d2f;
+}
+
+.main__block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__block-p {
+    font-size: 12px;
+    font-family: var(--r-m);
+    color: white;
+    text-transform: uppercase;
+    padding: 45px 165px;
+}
+
+
+/* --------FOOTER-------- */
+
+footer {
+    background: #000000;
+    padding: 100px 0;
+    justify-content: space-between;
+}
+
+footer .footer_text ul li {
+    list-style: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: var(--r-s);
+}
+
+footer .footer_box {
+    display: flex;
+}
+
+footer h5 {
+    padding-left: 35px;
+    padding-bottom: 32px;
+    color: #ffffff;
+}

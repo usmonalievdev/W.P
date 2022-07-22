@@ -1,0 +1,120 @@
+@import 'fonts.css';
+:root {
+    --m-l: ' montserrat-light';
+    --r-b: 'raleway-bold ';
+    --r-e: 'raleway-extrabold ';
+    --r-m: 'raleway-medium';
+    --r-r: 'raleway-regular ';
+    --r-s: ' raleway-semibold';
+}
+
+
+/* --------header-------- */
+
+.navbar-light .navbar-nav .nav-link {
+    color: #383838;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #007d2f;
+}
+
+
+/* ----------MAIIN----------- */
+
+.main {
+    background: #007d2f;
+}
+
+.main__block {
+    text-align: center;
+    padding-top: 110px;
+    padding-bottom: 100px;
+}
+
+.main__block-title {
+    font-size: 30px;
+    font-family: var(--r-m);
+    margin-bottom: 39px;
+}
+
+.main__block-paragraph {
+    font-size: 17px;
+    font-family: var(--r-b);
+    color: #fefefe;
+}
+
+
+/* --------SECTION-------- */
+
+.photo_reyd .photo_a {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.photo {
+    position: relative;
+}
+
+.gallary_icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 0;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.gallary_icon:hover {
+    font-size: 50px;
+    background: #30774cb0;
+    color: #ffffff;
+}
+
+.photo_reyd .photo_row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.photo_reyd .photo img {
+    width: 100%;
+}
+
+
+/* --------FOOTER-------- */
+
+footer {
+    background: #000000;
+    padding: 100px 0;
+    justify-content: space-between;
+}
+
+footer .footer_text ul li {
+    list-style: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: var(--r-s);
+}
+
+footer .footer_box {
+    display: flex;
+}
+
+footer h5 {
+    padding-left: 35px;
+    padding-bottom: 32px;
+    color: #ffffff;
+}

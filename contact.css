@@ -1,0 +1,116 @@
+ @import 'fonts.css';
+ :root {
+     --m-l: ' montserrat-light';
+     --r-b: 'raleway-bold ';
+     --r-e: 'raleway-extrabold ';
+     --r-m: 'raleway-medium';
+     --r-r: 'raleway-regular ';
+     --r-s: ' raleway-semibold';
+ }
+ /* -------- HEADER--------*/
+ 
+ .navbar-light .navbar-nav .nav-link {
+     color: #383838;
+     text-transform: uppercase;
+     font-weight: 700;
+ }
+ 
+ .navbar-collapse {
+     flex-grow: 0;
+ }
+ 
+ header .navbar .container-fluid .collapse .navbar-nav .nav-links {
+     color: #007d2f;
+     text-transform: uppercase;
+     font-weight: 700;
+     text-decoration: none;
+ }
+ /* --------SECTION-------- */
+ 
+ .section {
+     background: #f5f5f5;
+ }
+ 
+ .section__block {
+     margin-top: 105px;
+ }
+ 
+ .section__block-title {
+     font-size: 30px;
+     color: black;
+     font-weight: 900px;
+     margin-bottom: 45px;
+ }
+ 
+ .section__block-paragraph {
+     font-size: 16px;
+     color: #787878;
+ }
+ 
+ .section__block-span {
+     font-size: 16px;
+     color: #171717;
+     font-weight: 700px;
+ }
+ 
+ .need p {
+     padding: 45px 0 25px 0;
+     color: #787878;
+ }
+ 
+ .section .form_group .form_control {
+     font-size: 15px;
+     color: #787878;
+     width: 100%;
+     padding: 18px 15px;
+     border: none;
+     margin-top: 35px;
+ }
+ 
+ .section button {
+     text-transform: uppercase;
+     padding: 23px 25px;
+     font-size: 12px;
+     background: #007d2f;
+     color: #ffffff;
+     border: none;
+     margin-top: 30px;
+     margin-bottom: 100px;
+ }
+ 
+ .section button:hover {
+     background: #036729;
+ }
+ 
+ .row {
+     display: flex;
+     flex-wrap: wrap;
+ }
+ 
+ iframe {
+     margin-bottom: 100px;
+ }
+ /* --------FOOTER-------- */
+ 
+ footer {
+     background: #000000;
+     padding: 100px 0;
+     justify-content: space-between;
+ }
+ 
+ footer .footer_text ul li {
+     list-style: none;
+     color: #ffffff;
+     font-size: 15px;
+     font-family: var(--r-s);
+ }
+ 
+ footer .footer_box {
+     display: flex;
+ }
+ 
+ footer h5 {
+     padding-left: 35px;
+     padding-bottom: 32px;
+     color: #ffffff;
+ }
